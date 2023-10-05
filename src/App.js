@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Business from './Business';
+import BusinessList from './Business';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Business />
+        <BusinessList />
       </header>
     </div>
   );

@@ -1,8 +1,11 @@
 import React from 'react';
+import Business from './Business'
 
 function BusinessList() {
     return (
-        <div></div>
+        <div>
+            <Business />
+        </div>
     );
 }
 
