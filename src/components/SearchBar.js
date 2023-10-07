@@ -1,13 +1,14 @@
 import React from 'react';
+import './SearchBar.css';
 
 function SearchBar() {
     return (
         <div>
             <form>
-                <input type='text' placeholder='Name'/>
-                <input type='text' placeholder='Location'/>
-                <button type='submit'>Let's Go</button>
+                <input type='text' placeholder='Search Businesses'/>
+                <input type='text' placeholder='Where?'/>
             </form>
+            <button type='submit'>Let's Go</button>
         </div>
     );
 }
